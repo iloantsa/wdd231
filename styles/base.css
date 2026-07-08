@@ -4,7 +4,7 @@ deep slate blue #3D405B
  */
 /* ***************site wide********* */
 * {
-    font-family: "Josefin Sans," sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     box-sizing: border-box;
 }
 
@@ -94,8 +94,6 @@ h2{
     margin: auto;
     background-color: #0f0d0d;
     color: #ccc;
-    text-align: center;
-    margin: 0;
     padding: 10px;
     
 }
