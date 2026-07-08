@@ -82,7 +82,7 @@ header span {
 }
 
 .navigation a:hover {
-    background-color: #E0715F;
+    background-color: #ccceee;
 }
 
 
@@ -99,22 +99,32 @@ main img {
     height: auto;
     margin: 0 auto;
 }
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
 
-th,
-td {
-    border: 1px solid #333;
-    padding: 8px;
+body {
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 
-th {
-    background-color: #1f4e79;
-    color: white;
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
+
+button {
+    width: 90px;
+    padding: 8px;
+    background-color: #ccc;
+    border: 1px solid black;
+}
+
+.course {
+    background-color: #bbb;
+    margin: 8px auto;
+    padding: 8px;
+    width: 80%;
+}
+
 /* *******FOOTER************ */
 footer {
     background-color: #eee;
