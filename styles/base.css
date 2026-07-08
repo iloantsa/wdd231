@@ -44,6 +44,9 @@ header span {
     border: none;
     color: #3D405B;
     cursor: pointer;
+    font-size: 35px;
+    margin-right: 20px;
+    padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
