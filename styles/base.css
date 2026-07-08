@@ -11,6 +11,9 @@ deep slate blue #3D405B
 h1 {
     margin: 1rem 10px;
     color: #3D405B;
+    
+    margin-left: 10px;
+
 }
 
 /* ******************HEADER********** */
@@ -85,12 +88,16 @@ header span {
 }
 
 
-h1 {
-    margin-left: 10px;
-}
+
 h2{
     text-align: center;
     margin: auto;
+    background-color: #0f0d0d;
+    color: #ccc;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    
 }
 main img {
     display: block;
@@ -125,18 +132,7 @@ button {
     padding: 20px;
     background-color: #f0f0f0;
 }
-
-
-
-h2 {
-    background-color: #0f0d0d;
-    color: #ccc;
-    text-align: center;
-    margin: 0;
-    padding: 10px;
-}
-
-
+    
 
 .course {
     background-color: #bbb;
