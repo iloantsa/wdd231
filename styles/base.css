@@ -93,6 +93,28 @@ h2{
     text-align: center;
     margin: auto;
 }
+main img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #1f4e79;
+    color: white;
+}
 /* *******FOOTER************ */
 footer {
     background-color: #eee;
