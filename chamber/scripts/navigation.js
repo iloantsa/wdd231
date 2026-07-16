@@ -7,3 +7,15 @@ navbutton.addEventListener('click', () => {
     navlinks.classList.toggle('show');
 
 })
+
+
+
+gridButton.addEventListener("click", () => {
+    directory.classList.add("grid");
+    directory.classList.remove("list");
+});
+
+listButton.addEventListener("click", () => {
+    directory.classList.add("list");
+    directory.classList.remove("grid");
+});

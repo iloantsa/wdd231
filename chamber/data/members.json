@@ -1,0 +1,70 @@
+{
+       "members": [
+        {
+            "name": "Rosewood Envent",
+            "address": "J 36 Andavamamba, Antananarivo 101",
+            "email": "rosehood@gail.com",
+            "phonenumber": "231 34 13 533 44",
+            "weburl": "https://www.rosewood.com",
+            "membershiplevel": 1,
+            "image": "images/burger.png"
+        },
+        {
+            "name": "Baobab Company",
+            "address": "Street Seimad, Antananarivo 101",
+            "email": "info2company@gail.com",
+            "phonenumber": "231 34 13 533 43",
+            "weburl": "https://www.bobabcompany.com",
+            "membershiplevel": 2,
+            "image": "images/car.png"
+        },
+        {
+            "name": "Club Maech",
+            "address": "Street Andriandahifotsy, Antananarivo 101",
+            "email": "info3maech@gail.com",
+            "phonenumber": "231 34 13 533 42",
+            "weburl": "https://clubmaech.com",
+            "membershiplevel": 1,
+            "image": "images/maech.png"
+        },   
+        {
+            "name": "INTH",
+            "address": "3GJ7+R9J, Antananarivo 101",
+            "email": "info4inth@gail.com",
+            "phonenumber": "231 34 13 533 41",
+            "weburl": "https://www.inth.com",
+            "membershiplevel": 3,
+            "image": "images/sanitary.png"
+        },
+        {
+            "name": "LOVATEL",
+            "address": "Street Andriandahifotsy, Antananarivo 101",
+            "email": "info5lovatel@gail.com",
+            "phonenumber": "231 34 13 533 40",
+            "weburl": "https://www.lovatel.com",
+            "membershiplevel": 1,
+            "image": "images/nutrition.png"
+        },
+        {
+            "name": "MADA HOTEL",
+            "address": "Alarobia, Antananarivo 101",
+            "email": "info6madahotel@gail.com",
+            "phonenumber": "231 34 13 533 49",
+            "weburl": "https://www.madahotel.com",
+            "membershiplevel": 2,
+            "image": "images/books"
+        },
+        {
+            "name": "FLLC",
+            "address": "Street Bel'air, Antananarivo 102",
+            "email": "infofllc@gmail.com",
+            "phonenumber": "231 34 13 533 47",
+            "weburl": "https://www.FLLC.com",
+            "membershiplevel": 3,
+            "image": "images/tooth-hygienne"
+        }
+    ]    
+}
+
+
+    
