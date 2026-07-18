@@ -1,10 +1,10 @@
 {
        "members": [
         {
-            "name": "Rosewood Envent",
+            "name": "Rosewood Event",
             "address": "J 36 Andavamamba, Antananarivo 101",
             "email": "rosehood@gmail.com",
-            "phone": "231 34 13 533 44",
+            "phone": "+231 34 13 533 44",
             "website": "https://www.rosewood.com",
             "membershipLevel": 1,
             "image": "images/burger.png"
@@ -13,7 +13,7 @@
             "name": "Baobab Company",
             "address": "Street Seimad, Antananarivo 101",
             "email": "info2company@gmail.com",
-            "phone": "231 34 13 533 43",
+            "phone": "+231 34 13 533 43",
             "website": "https://www.bobabcompany.com",
             "membershipLevel": 2,
             "image": "images/car.png"
@@ -22,7 +22,7 @@
             "name": "Club Maech",
             "address": "Street Andriandahifotsy, Antananarivo 101",
             "email": "info3maech@gmail.com",
-            "phone": "231 34 13 533 42",
+            "phone": "+231 34 13 533 42",
             "website": "https://clubmaech.com",
             "membershipLevel": 1,
             "image": "images/books.png"
@@ -31,7 +31,7 @@
             "name": "INTH",
             "address": "3GJ7+R9J, Antananarivo 101",
             "email": "info4inth@gmail.com",
-            "phone": "231 34 13 533 41",
+            "phone": "+231 34 13 533 41",
             "website": "https://www.inth.com",
             "membershipLevel": 3,
             "image": "images/sanitary.png"
@@ -40,7 +40,7 @@
             "name": "LOVATEL",
             "address": "Street Andriandahifotsy, Antananarivo 101",
             "email": "info5lovatel@gmail.com",
-            "phone": "231 34 13 533 40",
+            "phone": "+231 34 13 533 40",
             "website": "https://www.lovatel.com",
             "membershipLevel": 1,
             "image": "images/school.png"
@@ -49,7 +49,7 @@
             "name": "MADA HOTEL",
             "address": "Alarobia, Antananarivo 101",
             "email": "info6madahotel@gmail.com",
-            "phone": "231 34 13 533 49",
+            "phone": "+231 34 13 533 49",
             "website": "https://www.madahotel.com",
             "membershipLevel": 2,
             "image": "images/nutrition.png"
@@ -58,7 +58,7 @@
             "name": "FLLC",
             "address": "Street Bel'air, Antananarivo 102",
             "email": "infofllc@gmail.com",
-            "phone": "231 34 13 533 47",
+            "phone": "+231 34 13 533 47",
             "website": "https://www.FLLC.com",
             "membershipLevel": 3,
             "image": "images/tooth-hygiene.png"
