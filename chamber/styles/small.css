@@ -124,8 +124,8 @@ header span {
 .join-btn {
     display: inline-block;
     padding: .8rem 1.5rem;
-    background: #0f3b68;
-    color: white;
+    background: #ebedf0;
+    color: #ccceee;
     text-decoration: none;
     border-radius: 8px;
     cursor: pointer;
@@ -172,7 +172,7 @@ button {
 }
 
 #members section {
-    background: white;
+    background: #ccceee;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 1rem;
@@ -199,7 +199,7 @@ button {
 }
 
 .event-card {
-    background: white;
+    background: #ccceee;
     border-left: 6px solid #d59b45;
     border-radius: 12px;
     padding: 1.2rem;
@@ -225,7 +225,7 @@ button {
 
 .current-weather,
 .forecast {
-    background: white;
+    background: #ccceee;
     padding: 1rem;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
@@ -273,7 +273,7 @@ button {
 }
 
 #spotlights section {
-    background: white;
+    background: #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
     padding: 1rem;
