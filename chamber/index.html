@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HOME | Chamber of Commerce</title>
+    <meta name="description" content="This is a WDD231, Chamber of commerce class project; The site will create business directories
+     by RAVAOARINIAINA">
+    <meta name="author" content="RAVAOARINIAINA">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <meta property="og:title" content="Explore the Chamber of Commerce Business Directory">
+    <meta property="og:description"
+        content="Explore local businesses, discover trusted services, and connect with Chamber of Commerce members in our community.">
+    <meta property="og:url" content="https://www.directory.com/">
+    <meta property="og:image" content="https://iloantsa.github.io/wdd231/chamber/images/hero.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/members.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+    <script src="scripts/getweather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/home.svg" alt="Site Logo" width="50" height="50">
+        <span>RAVAOARINIAINA's Chamber of commerce</span>
+        <button id="ham-btn" class="hamburger" aria-label="Navigation Menu"></button>
+
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="directory.html">Directory</a></li>
+            <li><a href="#">Join Us</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Chamber Commerce of Antananarivo">
+            <div class="hero-text">
+                <h1>Welcome to the Chamber of Commerce</h1>
+                <a href="join.html" class="join-btn">Join the Chamber</a>
+            </div>
+        </section>
+        <section class="events">
+            <h2>Upcoming Events</h2>
+        
+            <div class="event-container">
+        
+                <article class="event-card">
+                    <h3>Business Networking Gala</h3>
+        
+                    <p>📅 July 25, 2026</p>
+        
+                    <p>📍 Antananarivo Conference Center</p>
+        
+                    <p>
+                        Join local entrepreneurs and business leaders for an evening
+                        of networking and collaboration.
+                    </p>
+                </article>
+        
+                <article class="event-card">
+                    <h3>Digital Business Summit</h3>
+        
+                    <p>📅 August 15, 2026</p>
+        
+                    <p>📍 Innovation Hub</p>
+        
+                    <p>
+                        Discover new technologies and digital solutions to help
+                        your business grow.
+                    </p>
+                </article>
+        
+                <article class="event-card">
+                    <h3>Women in Business Forum</h3>
+        
+                    <p>📅 September 5, 2026</p>
+        
+                    <p>📍 Carlton Hotel</p>
+        
+                    <p>
+                        Meet inspiring women entrepreneurs and learn from their
+                        success stories.
+                    </p>
+                </article>
+        
+            </div>
+        </section>
+
+        <section class="weather">
+            <h2>Current Weather</h2>
+        
+            <p id="town"></p>
+        
+            <img id="weather-icon" src="" alt="">
+        
+            <p id="temperature"></p>
+        
+            <p id="description"></p>
+        </section>
+        <section class="forecast">
+            <h2>3-Day Forecast</h2>
+            <div id="forecast-container"></div>
+        </section>
+        <section class="spotlights">
+            <h2>Business Spotlights</h2>
+        
+            <div id="spotlights"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="#" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="#" target="_blank"><img src="images/linkedin.svg" alt="linked in" width="16" height="16"></a>
+            <a href="#" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="#" target="_blank"><img src="images/whatsapp.svg" alt="whatsapp" width="16" height="16"></a>
+
+        </div>
+        <p>© 2026, <span id="currentyear"></span> RAVAOARINIAINA, Madagascar </p>
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>

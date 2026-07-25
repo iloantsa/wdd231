@@ -1,53 +1,61 @@
-/* color scheme
-deep slate blue #3D405B
+/* ==========================================================
+   SITE WIDE
+========================================================== */
 
- */
-/* ***************site wide********* */
 * {
-    font-family: "Josefin Sans", sans-serif;
     box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 h1 {
     margin: 1rem 10px;
-    color: #3D405B;
-
-    margin-left: 10px;
-
+    color: #020202;
 }
 
-/* ******************HEADER********** */
+h2 {
+    text-align: center;
+    background: #0f0d0d;
+    color: #ccc;
+    padding: 10px;
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
 header {
     display: grid;
-    grid-template-columns: 50px auto 70px;    
-    padding: 5px 0 5px 10px;
+    grid-template-columns: 50px auto 70px;
     align-items: end;
-    border-bottom: solid 1px #ddd;
     column-gap: 8px;
+    padding: 5px 0 5px 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 header img {
-    display: block;
     width: 100%;
     height: auto;
+    display: block;
     padding: 5px;
 }
 
 header span {
-    font-size: 1.2rem;
     color: #3D405B;
+    font-size: 1.2rem;
 }
 
-/* *************Hamburger********** */
+/* ==========================================================
+   HAMBURGER
+========================================================== */
+
 .hamburger {
     background: none;
     border: none;
     color: #3D405B;
     cursor: pointer;
     font-size: 35px;
-    margin-right: 20px;
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
 }
 
 .hamburger::before {
@@ -58,7 +66,10 @@ header span {
     content: "\00D7";
 }
 
-/********* *Navigation******** */
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
 .navigation {
     display: none;
 }
@@ -68,46 +79,62 @@ header span {
 }
 
 .navigation ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.navigation a {
-    display: block;
-    padding: .8rem 10px;
-    color: #3D405B;
-    text-decoration: none;
-    border-bottom: solid 1px #ddd;
-
+.navigation li.current {
+    background: #eee;
 }
 
-.navigation li.current {
-    background-color: #eee;
+.navigation a {
+    display: block;
+    padding: .8rem;
+    color: #3D405B;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
 }
 
 .navigation a:hover {
-    background-color: #ccceee;
+    background: #ccceee;
 }
 
+/* ==========================================================
+   HERO
+========================================================== */
 
-
-h2 {
-    text-align: center;
-    margin: auto;
-    background-color: #0f0d0d;
-    color: #ccc;
-    padding: 10px;
-
+.hero {
+    position: relative;
 }
 
-main img {
+.hero img {
+    width: 100%;
     display: block;
-    width: 200px;
-    height: auto;
-    margin: 0 auto;
 }
 
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.join-btn {
+    display: inline-block;
+    padding: .8rem 1.5rem;
+    background: #0f3b68;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
 
 .buttons {
     display: flex;
@@ -116,25 +143,23 @@ main img {
     padding: 10px;
 }
 
-
 button {
     width: 90px;
     padding: 8px;
-    background-color: #ccc;
-    border: 1px solid black;
     cursor: pointer;
-
 }
 
+/* ==========================================================
+   DIRECTORY
+========================================================== */
 
 .container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 20px;
-    background-color: #f0f0f0;
+    background: #f0f0f0;
 }
-
 
 #members.grid {
     display: grid;
@@ -147,16 +172,16 @@ button {
 }
 
 #members section {
+    background: white;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 1rem;
-    background: white;
     text-align: center;
 }
 
 #members section a {
-    color: #3D405B;
     text-decoration: none;
+    color: #3D405B;
     font-weight: bold;
 }
 
@@ -164,38 +189,135 @@ button {
     text-decoration: underline;
 }
 
-/* *******FOOTER************ */
-footer {
-    background-color: #eee;
-    padding: 1rem 10px;
+/* ==========================================================
+   EVENTS
+========================================================== */
+
+.event-container {
+    display: grid;
+    gap: 1rem;
+}
+
+.event-card {
+    background: white;
+    border-left: 6px solid #d59b45;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .15);
+}
+
+.event-card h3 {
+    color: #0f3b68;
+}
+
+.event-card p {
+    line-height: 1.5;
+}
+
+/* ==========================================================
+   WEATHER
+========================================================== */
+
+.weather-container {
+    display: grid;
+    gap: 1rem;
+}
+
+.current-weather,
+.forecast {
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+}
+
+#forecast-container {
+    display: grid;
+    gap: 1rem;
+}
+
+.forecast-card {
+    background: #f5f5f5;
+    border-radius: 10px;
     text-align: center;
+    padding: 1rem;
+}
 
+.card {
+    background: #f6f0da;
+    border: 1px solid #5d6f67;
+    border-radius: 10px;
+    text-align: center;
+}
 
+.card h2 {
+    color: #3a5250;
+}
+
+#temperature {
+    font-size: 2rem;
+    color: #537279;
+}
+
+#description {
+    text-transform: capitalize;
+}
+
+/* ==========================================================
+   SPOTLIGHTS
+========================================================== */
+
+#spotlights {
+    display: grid;
+    gap: 1rem;
+}
+
+#spotlights section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+    padding: 1rem;
+    text-align: center;
+}
+
+#spotlights img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+footer {
+    background: #eee;
+    text-align: center;
+    padding: 1rem;
 }
 
 .social {
     display: flex;
     justify-content: center;
-    column-gap: 8px;
-
+    gap: 8px;
 }
 
 .social a {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 44px;
-    height: 44px;
-    border: #ccc solid 1px;
-    border-radius: 22px;
 }
 
 .social img {
-    height: 22px;
     width: 22px;
+    height: 22px;
 }
 
 .social a:hover {
-    background-color: #ddd;
-
+    background: #ddd;
 }
