@@ -1,16 +1,10 @@
+const forecastKey = "f76f8ec10f9df36c1b5b5fafbb8dadb7";
+const forecastLat = -18.909409872026046;
+const forecastLong = 47.47739236633607;
 
 
-const myKey = "f76f8ec10f9df36c1b5b5fafbb8dadb7";
-const myLat = -18.909409872026046;
-const myLong = 47.47739236633607;
-
-const myTown = document.querySelector("#town");
-const myDescription = document.querySelector("#description");
-const myTemperature = document.querySelector("#temperature");
-const myGraphic = document.querySelector("#weather-icon");
 const forecastUrl =
-    `https://api.openweathermap.org/data/2.5/forecast?lat=${myLat}&lon=${myLong}&units=metric&appid=${myKey}`;
-
+    `https://api.openweathermap.org/data/2.5/forecast?lat=${forecastLat}&lon=${forecastLong}&units=metric&appid=${forecastKey}`;
 
 async function getForecast() {
 
